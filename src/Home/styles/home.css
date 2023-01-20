@@ -1,0 +1,54 @@
+body {
+    background-image: url(../../../public/media/images/accom.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.leads-wrapper {
+    color: #ffffff;
+    background-color: #93993a91;
+    padding: 50px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.leads-wrapper .table {
+    color: #ffffff;
+}
+
+.leads-wrapper > form select {
+    border-radius: 5px;
+    padding: 3px;
+    margin-right: 15px;
+}
+
+.vissible-lead {
+    background-color: rgba(0, 0, 0, 0.459);
+    color: #ffffff;
+    margin: 0 15px;
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.response-message {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.response-message.success {
+    background-color: rgb(1, 175, 1);
+}
+
+.response-message.error {
+    background-color: rgb(175, 1, 1);
+}
